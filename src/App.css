@@ -43,11 +43,19 @@ body{
 }
 
 
-.stats{
+.stats, h1{
     width: 400px;
     margin: 0 auto;
     text-align: center;
     color: #fff;
     padding: 20px 0;
     font-size: 2rem;
+}
+
+footer {
+    color: #eee;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
 }
