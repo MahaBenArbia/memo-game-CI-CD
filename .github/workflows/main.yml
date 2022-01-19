@@ -1,4 +1,4 @@
-name: Build and Test
+name: Build
 on:
   push:
     branches:
@@ -23,11 +23,6 @@ jobs:
       - name: npm install
         run: |
           npm install
-      #- name: npm run test
-       # run: |
-        #  npm run test
-        #env:
-         # CI: true
 
       - name: npm run build
         run: |
