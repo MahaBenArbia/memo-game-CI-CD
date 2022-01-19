@@ -39,6 +39,9 @@ function App() {
 
   return (
     <div>
+      <h1>
+        Memo Game
+      </h1>
       <div className="board">
         {cards.map((card,index) => {
           const flippedToFront =  (activeCards.indexOf(index) !== -1) || foundPairs.indexOf(index) !== -1;
